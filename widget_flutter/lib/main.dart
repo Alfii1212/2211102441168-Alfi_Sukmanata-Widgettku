@@ -68,6 +68,26 @@ class MyHomePage extends StatelessWidget {
                 onPressed: () {},
                 child: Text('Elevated Button'),
               ),
+              SizedBox(height: 10.0),
+              TextButton(
+                onPressed: () {},
+                child: Text('Text Button'),
+              ),
+              SizedBox(height: 20.0),
+              Stack(
+                alignment: Alignment.center,
+                children: [
+                  Container(
+                    width: 200.0,
+                    height: 200.0,
+                    decoration: BoxDecoration(
+                      color: Colors.grey[300],
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
+                  ),
+                  Icon(Icons.favorite, size: 100.0, color: Colors.red),
+                ],
+              ),
              
               
              
