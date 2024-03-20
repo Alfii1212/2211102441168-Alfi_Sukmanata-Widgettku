@@ -99,6 +99,17 @@ class MyHomePage extends StatelessWidget {
                   ),
                 ),
               ),
+               SizedBox(height: 20.0),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Center(
+                  child: Text(
+                    'Ini adalah contoh teks yang diletakkan di dalam Padding dan di-Center-kan.',
+                    style: TextStyle(fontSize: 18.0),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ),
              
               
              
