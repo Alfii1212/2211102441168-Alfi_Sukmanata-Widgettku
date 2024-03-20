@@ -88,6 +88,17 @@ class MyHomePage extends StatelessWidget {
                   Icon(Icons.favorite, size: 100.0, color: Colors.red),
                 ],
               ),
+              SizedBox(height: 20.0),
+              AspectRatio(
+                aspectRatio: 16 / 9,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(20.0),
+                  child: Image.network(
+                    'https://cdn.wallpapersafari.com/41/38/Mc7ELF.jpg',
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
              
               
              
