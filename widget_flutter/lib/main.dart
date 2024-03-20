@@ -63,6 +63,11 @@ class MyHomePage extends StatelessWidget {
                   Icon(Icons.thumb_up, size: 50.0, color: Colors.blue),
                 ],
               ),
+              SizedBox(height: 20.0),
+              ElevatedButton(
+                onPressed: () {},
+                child: Text('Elevated Button'),
+              ),
              
               
              
