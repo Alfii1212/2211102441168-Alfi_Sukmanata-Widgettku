@@ -110,6 +110,33 @@ class MyHomePage extends StatelessWidget {
                   ),
                 ),
               ),
+               SizedBox(height: 20.0),
+              ListView.builder(
+                shrinkWrap: true,
+                physics: NeverScrollableScrollPhysics(),
+                itemCount: 5,
+                itemBuilder: (context, index) {
+                  return Card(
+                    margin: EdgeInsets.symmetric(vertical: 10.0),
+                    child: ListTile(
+                      leading: CircleAvatar(
+                        child: Text('${index + 1}'),
+                      ),
+                      title: Text('Item ${index + 1}'),
+                      subtitle: Text('Subtitle ${index + 1}'),
+                      trailing: Icon(Icons.arrow_forward),
+                      onTap: () {},
+                    ),
+                  );
+                },
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
              
               
              
